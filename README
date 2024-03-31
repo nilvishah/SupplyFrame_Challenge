@@ -1,0 +1,68 @@
+This web application allows users to search for recipes based on keywords. 
+It provides a user-friendly interface to browse through featured recipes, view recipe details, and navigate through pagination.
+
+## File Structure:
+
+index.html: This file contains the HTML structure of the web page, including the search bar, featured recipes section, pagination, and loader.
+
+style.css: This stylesheet contains the custom styling for the web page, including the layout, colors, and responsiveness.
+
+bootstrap.min.css: This is the minified version of the Bootstrap CSS framework, used for styling various elements of the web page.
+
+all.min.css: This CSS file contains the Font Awesome icon library, which is used for icons like the search icon and pagination arrows.
+
+loader.js: This JavaScript file handles the display of the loader animation while fetching data from the server.
+
+## Usage:
+
+Search Bar: Users can enter keywords related to recipes in the search bar and press the search button to retrieve matching recipes.
+
+Featured Recipes: The web page displays featured recipes in a grid layout. Each recipe card includes an image, title, and a button to view the recipe details.
+
+Pagination: If there are multiple pages of recipes, pagination links are provided at the bottom of the page. Users can navigate through pages by clicking on the page numbers or the previous/next arrows
+
+## Server Integration:
+
+This web application is designed to work with a server-side script that handles the search functionality and provides recipe data in response to search queries. The server-side script should accept GET requests with search parameters and return JSON data containing an array of recipes matching the search query.
+
+## RECIPES PAGE 
+
+Description:
+This web page displays detailed information about a specific recipe, including its image, title, description, ingredients, instructions, and nutrition facts. Users can navigate back to the home page using the provided link.
+
+## File Structure:
+
+recipe-details.html: This file contains the HTML structure of the recipe details page, including the layout, recipe information, and back button.
+
+recipe.css: This stylesheet contains the custom styling for the recipe details page, including the layout, colors, and typography.
+
+bootstrap.min.css: This is the minified version of the Bootstrap CSS framework, used for styling various elements of the web page.
+
+bootstrap.min.js: This is the minified version of the Bootstrap JavaScript framework, used for adding interactivity to the web page.
+
+## Usage:
+
+Back to Home Button: Users can click on the "Back to Home" button to navigate back to the home page where they can search for more recipes.
+
+Recipe Details: The page displays the recipe's image, title, description, ingredients, instructions, and nutrition facts in separate sections.
+
+To install and set up the project, follow these general steps:
+- Clone the Repository
+- Install Dependencies 
+- Start the Development Server
+- Access the Application (e.g. http://localhost:3000)
+
+## Testing
+
+### Jest Test Cases
+
+I've included a comprehensive suite of Jest test cases to ensure the reliability and functionality of the application. These tests cover various aspects of the codebase, including unit tests for individual functions, integration tests for components, and end-to-end tests for critical user flows.
+
+To run the Jest test suite, follow these steps:
+
+1. Make sure you have Node.js installed on your machine.
+2. Navigate to the root directory of the project in your terminal.
+3. Run the command `npm test` or `yarn test`.
+4. Jest will execute all the test cases and provide a detailed report of the results.
+
+Feel free to explore the `__tests__` directory to view the test files and examine the testing strategies employed throughout the project. If you encounter any issues or have suggestions for additional test cases, please don't hesitate to open an issue or submit a pull request.
